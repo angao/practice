@@ -1,2 +1,2 @@
 # practice
-this repository use to practice
+This repository is used to practice.
