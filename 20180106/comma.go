@@ -22,7 +22,7 @@ func comma1(str string) string {
 	var tmp []byte
 	var s = []byte(str)
 
-	if comm := bytes.IndexByte(s, '.'); comm != -1 {
+	if comm := strings.LastIndex(str, "."); comm > -1 {
 		tmp = s[comm:]
 		s = s[:comm]
 	}
